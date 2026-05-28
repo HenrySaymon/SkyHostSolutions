@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "SkyHostSolutions"
+version = "1.0.0"
+id = "artifacts/skyhost"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 24199
+
+[services.development]
+run = "pnpm --filter @workspace/skyhost run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/skyhost", "run", "build" ]
+publicDir = "artifacts/skyhost/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "24199"
+BASE_PATH = "/"

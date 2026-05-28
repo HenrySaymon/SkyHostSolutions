@@ -1,0 +1,347 @@
+Create a complete production-ready modern website for my technical services business named:
+
+SkyHostSolutions.com
+
+IMPORTANT:
+This is NOT a hosting provider website.
+This is a technical services / server management / infrastructure support company website.
+
+The website must look modern, premium, responsive, professional, and startup-like.
+
+====================================================
+MAIN REQUIREMENTS
+====================================================
+
+Build the website using:
+
+Frontend:
+- HTML5
+- CSS3
+- JavaScript
+- Bootstrap 5
+
+Backend:
+- PHP 8.3
+- MySQL 8
+
+Architecture Requirements:
+- Modular structure
+- Easy future migration to Laravel / Node.js / ASP.NET
+- Separate reusable components
+- Database-ready architecture
+- Clean folder structure
+- Responsive mobile-first design
+
+====================================================
+WEBSITE PAGES
+====================================================
+
+Create the following pages:
+
+Public Website:
+- Home Page
+- About Us
+- Contact Us
+- Services Page
+- Individual Service Pages
+- Pricing Page
+- Testimonials Page
+- Client Portal Login
+- Client Dashboard
+- Ticket Support System
+- Invoice View Page
+- Order History Page
+
+Admin Panel:
+- Separate admin login page
+- Separate admin dashboard
+- Admin authentication required
+- Admin session management
+- Admin logout option
+
+====================================================
+IMPORTANT SECURITY REQUIREMENTS
+====================================================
+
+The admin panel MUST be fully separate from the client side.
+
+Clients MUST NOT:
+- View invoices of other users
+- View orders of other users
+- Access admin pages
+- Access admin dashboard
+
+Admin pages MUST require:
+- Username/password login
+- Session authentication
+- Access restrictions
+
+====================================================
+SERVICES TO INCLUDE
+====================================================
+
+Main Services:
+- Linux VPS Setup
+- Docker Deployment
+- WordPress Migration
+- Website Maintenance
+- Remote Server Management
+- Technical Support
+- Email Troubleshooting
+- Performance Optimization
+- Malware Cleanup
+
+SSL Services:
+- Rapid SSL
+- Wildcard SSL
+- Multi-domain SSL
+
+====================================================
+SERVICE PAGE REQUIREMENTS
+====================================================
+
+Each service must have:
+- Separate page
+- Real service image
+- Service description
+- Features list
+- Pricing
+- Customer reviews
+- “Place Order” button
+- Related services section
+
+IMPORTANT:
+Do NOT use broken image links.
+Use working royalty-free images.
+All services must contain valid images.
+
+====================================================
+PRICING REQUIREMENTS
+====================================================
+
+Use realistic market pricing but slightly lower prices to attract clients.
+
+Include pricing in:
+- USD
+- EUR
+- INR
+
+Add currency switcher:
+- USD
+- EUR
+- INR
+
+Currency switcher should dynamically update prices site-wide.
+
+====================================================
+CLIENT FEATURES
+====================================================
+
+Client accounts must support:
+- Registration
+- Login
+- Password reset
+- View active orders
+- View invoices
+- Download invoices PDF
+- Open support tickets
+- Reply to tickets
+- Re-open tickets
+- View ticket history
+- View order status
+
+====================================================
+ADMIN PANEL FEATURES
+====================================================
+
+Admin must be able to:
+
+Client Management:
+- Add clients
+- Edit clients
+- Suspend clients
+- Delete clients
+
+Service Management:
+- Add services
+- Edit service name
+- Edit service price
+- Edit description
+- Upload/change service images
+- Enable/disable services
+
+Order Management:
+- Create orders
+- Approve orders
+- Cancel orders
+- Re-activate cancelled orders
+- Change order status using dropdown
+
+Invoice Management:
+- Generate invoices
+- Edit invoices
+- Change invoice status
+- Mark paid/unpaid
+- Send invoices by email
+- Re-send invoices
+
+Ticket Support System:
+- View tickets
+- Reply to tickets
+- Close tickets
+- Re-open tickets
+- Change ticket status
+
+====================================================
+EMAIL SYSTEM REQUIREMENTS
+====================================================
+
+Integrate real email sending support.
+
+Use:
+- SMTP
+OR
+- SendGrid API
+OR
+- Mailgun API
+
+Invoices and ticket replies MUST be emailed to clients.
+
+Create:
+- SMTP configuration page
+- Email template system
+
+====================================================
+DATABASE REQUIREMENTS
+====================================================
+
+Create MySQL database schema for:
+- admin_users
+- clients
+- services
+- orders
+- invoices
+- tickets
+- ticket_replies
+- currencies
+- testimonials
+
+Provide:
+- database.sql
+- sample demo data
+
+====================================================
+ADMIN LOGIN REQUIREMENTS
+====================================================
+
+Create secure admin login page.
+
+DO NOT display login credentials anywhere publicly on the website.
+
+Use:
+- Password hashing
+- Sessions
+- Authentication middleware
+
+====================================================
+DESIGN REQUIREMENTS
+====================================================
+
+Design style:
+- Modern SaaS startup
+- Dark/light balanced UI
+- Smooth animations
+- Responsive
+- Professional cards
+- Dashboard UI
+- Premium typography
+- Mobile-friendly
+
+Use:
+- Font Awesome icons
+- Bootstrap components
+- Charts for admin dashboard
+
+====================================================
+TESTIMONIALS
+====================================================
+
+Add fake testimonials with:
+- Name
+- Photo
+- Star rating
+- Review text
+
+====================================================
+IMAGE REQUIREMENTS
+====================================================
+
+IMPORTANT:
+Do NOT leave placeholder or broken images.
+
+Use working images for:
+- VPS setup
+- Docker
+- SSL
+- WordPress
+- Support
+- Security
+- Tickets
+- Infrastructure
+
+====================================================
+OUTPUT REQUIREMENTS
+====================================================
+
+Generate:
+- Complete website code
+- Full PHP project
+- MySQL database.sql
+- Config.php
+- Assets folder
+- Admin panel
+- Client portal
+- README installation guide
+
+Project should be directly deployable on:
+- Ubuntu VPS
+- Apache
+- Nginx
+- cPanel hosting
+
+====================================================
+BONUS FEATURES
+====================================================
+
+If possible, also include:
+- PDF invoice generation
+- Dashboard charts
+- Notification system
+- Live chat integration
+- Activity logs
+- Search/filter system
+- Pagination
+- Dark mode
+- API-ready architecture
+
+====================================================
+FINAL IMPORTANT NOTES
+====================================================
+
+This is NOT a hosting company website.
+
+This is a:
+- Technical services
+- Server management
+- Infrastructure support
+- SSL management
+- DevOps support
+- Website maintenance business
+
+The admin panel MUST be separate and secured.
+
+Do NOT leave unfinished sections.
+Do NOT use broken images.
+Do NOT expose admin credentials publicly.
+
+Generate production-quality code.
